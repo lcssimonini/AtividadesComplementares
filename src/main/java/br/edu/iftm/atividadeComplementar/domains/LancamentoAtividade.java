@@ -95,7 +95,4 @@ public class LancamentoAtividade {
 	public void setAtividade(Atividade atividade) {
 		this.atividade = atividade;
 	}
-	
-	
-
 }

@@ -33,20 +33,6 @@ public class Atividade {
 	public Integer getHorasAproveitadasPorAtividade(Integer totalhorasComplementares) {
 		return getValorLimiteHorasAtividade(totalhorasComplementares) * percentualCargaHoraria / 100; 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	public Integer getCodigo() {
 		return codigo;
@@ -86,6 +72,5 @@ public class Atividade {
 
 	public void setPercentualPorAtividade(Integer percentualPorAtividade) {
 		this.percentualPorAtividade = percentualPorAtividade;
-	}	
-
+	}
 }

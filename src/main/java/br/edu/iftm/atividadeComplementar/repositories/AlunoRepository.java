@@ -9,8 +9,7 @@ import org.springframework.stereotype.Repository;
 import br.edu.iftm.atividadeComplementar.domains.Aluno;
 
 @Repository
-public interface AlunoRepository extends JpaRepository<Aluno,Long>{
+public interface AlunoRepository extends JpaRepository<Aluno,Long> {
 	
 	public List<Aluno> findByNomeContaining(@Param("nome") String nome);
-
 }
