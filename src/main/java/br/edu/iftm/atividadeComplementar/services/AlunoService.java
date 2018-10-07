@@ -26,5 +26,4 @@ public class AlunoService {
 	public List<Aluno> buscarTodos() {
 		return repository.findAll();
 	}
-	
 }

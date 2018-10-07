@@ -31,5 +31,4 @@ public class AlunoResource {
 		Optional<Aluno> aluno = service.buscarRa(ra);
 		return ResponseEntity.ok().body(aluno);
 	}
-
 }
